@@ -107,7 +107,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="login-container relative">
+    <div className="login-container relative bg-blue-600">
       {/* Preloader */}
       {isLoading && (
         <div className="fixed inset-0 z-30 flex flex-col items-center justify-center bg-white">
